@@ -1,3 +1,13 @@
+@import "/styles/common.scss";
+
 .header {
-  color: red
+  color: red;
+
+  @include respond-to(tablet) {
+    color: blue;
+  }
+
+  @include respond-to(desktop) {
+    color: green;
+  }
 }

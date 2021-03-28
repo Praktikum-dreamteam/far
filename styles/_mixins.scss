@@ -1,0 +1,23 @@
+@import "./_vars";
+
+$desktop: 1200px;
+$s-tablet: 600px;
+$tablet: 900px;
+
+// Media queries
+
+@mixin respond-to($media) {
+  @if $media == desktop {
+    @media only screen and (min-width: $desktop + 1px) {
+      @content;
+    }
+  } @else if $media == tablet {
+    @media only screen and (min-width: $tablet + 1px) {
+      @content;
+    }
+  } @else if $media == s_tablet {
+    @media only screen and (min-width: $s-tablet + 1px) {
+      @content;
+    }
+  }
+}
