@@ -8,11 +8,11 @@ export default function Body() {
                 <div className={styles.body__title}>
                     <p>Фонд содействия защите здоровья и социальной справедливости имени Андрея Рылькова</p>
                 </div>
-                <div className={styles.body__img} />
+                <div className={styles.body__img} ><div className={styles.body__bg}/></div>
             </div>
-            <div className={styles.body__contant}>
-                <div className={styles.body__contant_span}>e </div>
-                <div>
+            <div className={styles.body__container}>
+                <div className={styles.body__span}></div>
+                <div className={styles.body__content}>
                     <h2>Наша миссия:</h2>
                     <h3> способствовать развитию наркополитики, основанной
                         на гуманности, терпимости, защите здоровья, достоинства и прав человека.</h3>
