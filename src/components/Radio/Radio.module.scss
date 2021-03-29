@@ -1,0 +1,26 @@
+@import "/styles/common.scss";
+
+.radio {
+  display: block;
+  cursor: pointer;
+
+  &__text {
+    padding: 16px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    color: #313131;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+  }
+
+  &__input:checked + &__text {
+    background-color: $red;
+    color: #ffffff;
+  }
+
+  &__input {
+    display: none;
+  }
+}

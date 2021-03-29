@@ -1,0 +1,28 @@
+@import "/styles/common.scss";
+
+.donate {
+  background: $grey-bg;
+
+  &__title {
+    font-size: 41px;
+    letter-spacing: -1px;
+    line-height: 31px;
+    color: #fff;
+    text-shadow: 1px 1px 0 black;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Vollkorn, sans-serif;
+    width: 50%;
+    border: 1px solid #000;
+    margin: 0 0 36px;
+
+    & > span {
+      color: black;
+      text-shadow: none;
+    }
+  }
+
+  &__form {
+
+  }
+}
