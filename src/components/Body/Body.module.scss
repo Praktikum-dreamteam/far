@@ -1,0 +1,44 @@
+@import "/styles/common.scss";
+
+.body {
+  //display: flex;
+  //flex-direction: column;
+
+  &__contauner {
+    //width: 100%;
+    //display: flex;
+    //flex-direction: row;
+    //box-sizing: border-box;
+  }
+
+  &__title {
+    font-family: "Vollkorn - Medium Italic";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27.67px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    //display: flex;
+    color: #ffffff;
+    width: 55%;
+    padding: 16px 76px 18px 64px;
+    background-color: #b23438;
+  }
+
+  &__img {
+    //display: flex;
+    //width: 45%;
+    flex-grow: 1;
+    height: 127px;
+    margin: 22px 24px 29px 26px;
+    background: url(/lamp.svg), url(/lamp.svg), url(/lamp.svg), url(/lamp.svg), url(/lamp.svg), url(/lamp.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0, 100px 0, 200px 0, 300px 0, 400px 0;
+
+  }
+
+
+}
