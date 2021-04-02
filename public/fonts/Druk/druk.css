@@ -1,0 +1,649 @@
+@font-face {
+    font-family: 'Druk Condensed Cyr Super';
+    src: url('DrukCondensedCyrSuper-Italic.woff2') format('woff2'),
+        url('DrukCondensedCyrSuper-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Condensed Cyr Super';
+    src: url('DrukCondensedCyrSuper.woff2') format('woff2'),
+        url('DrukCondensedCyrSuper.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('DrukCyr-BoldItalic.woff2') format('woff2'),
+        url('DrukCyr-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('DrukCyr-Bold.woff2') format('woff2'),
+        url('DrukCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('DrukCyr-Heavy.woff2') format('woff2'),
+        url('DrukCyr-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('DrukCyr-HeavyItalic.woff2') format('woff2'),
+        url('DrukCyr-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('DrukCyr-SuperItalic.woff2') format('woff2'),
+        url('DrukCyr-SuperItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('DrukCyr-Medium.woff2') format('woff2'),
+        url('DrukCyr-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('DrukCyr-MediumItalic.woff2') format('woff2'),
+        url('DrukCyr-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('DrukCyr-Super.woff2') format('woff2'),
+        url('DrukCyr-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Cyr';
+    src: url('DrukTextCyr-Heavy.woff2') format('woff2'),
+        url('DrukTextCyr-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Cyr';
+    src: url('DrukTextCyr-Bold.woff2') format('woff2'),
+        url('DrukTextCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Cyr';
+    src: url('DrukTextCyr-BoldItalic.woff2') format('woff2'),
+        url('DrukTextCyr-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Cyr';
+    src: url('DrukTextCyr-MediumItalic.woff2') format('woff2'),
+        url('DrukTextCyr-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Cyr';
+    src: url('DrukTextCyr-HeavyItalic.woff2') format('woff2'),
+        url('DrukTextCyr-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-HeavyItalic.woff2') format('woff2'),
+        url('DrukTextWideCyr-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-Bold.woff2') format('woff2'),
+        url('DrukTextWideCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-MediumItalic.woff2') format('woff2'),
+        url('DrukTextWideCyr-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-BoldItalic.woff2') format('woff2'),
+        url('DrukTextWideCyr-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Cyr';
+    src: url('DrukTextCyr-SuperItalic.woff2') format('woff2'),
+        url('DrukTextCyr-SuperItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Cyr';
+    src: url('DrukTextCyr-Super.woff2') format('woff2'),
+        url('DrukTextCyr-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Cyr';
+    src: url('DrukTextCyr-Medium.woff2') format('woff2'),
+        url('DrukTextCyr-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-Heavy.woff2') format('woff2'),
+        url('DrukTextWideCyr-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-BoldItalic.woff2') format('woff2'),
+        url('DrukWideCyr-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-Bold.woff2') format('woff2'),
+        url('DrukWideCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-Heavy.woff2') format('woff2'),
+        url('DrukWideCyr-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-Super.woff2') format('woff2'),
+        url('DrukTextWideCyr-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-HeavyItalic.woff2') format('woff2'),
+        url('DrukWideCyr-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-SuperItalic.woff2') format('woff2'),
+        url('DrukTextWideCyr-SuperItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-Medium.woff2') format('woff2'),
+        url('DrukTextWideCyr-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide Cyr';
+  src: url('DrukWideCyr-Medium.woff2') format('woff2'),
+  url('DrukWideCyr-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide Cyr';
+  src: url('DrukWideCyr-SuperItalic.woff2') format('woff2'),
+  url('DrukWideCyr-SuperItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide Cyr';
+  src: url('DrukWideCyr-MediumItalic.woff2') format('woff2'),
+  url('DrukWideCyr-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk XCondensed Cyr Super';
+  src: url('DrukXCondensedCyrSuper-Italic.woff2') format('woff2'),
+  url('DrukXCondensedCyrSuper-Italic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide Cyr';
+  src: url('DrukWideCyr-Super.woff2') format('woff2'),
+  url('DrukWideCyr-Super.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk XCondensed Cyr Super';
+  src: url('DrukXCondensedCyrSuper.woff2') format('woff2'),
+  url('DrukXCondensedCyrSuper.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('Druk-Bold.woff2') format('woff2'),
+  url('Druk-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('Druk-BoldItalic.woff2') format('woff2'),
+  url('Druk-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk XXCondensed Cyr Super';
+  src: url('DrukXXCondensedCyrSuper-Italic.woff2') format('woff2'),
+  url('DrukXXCondensedCyrSuper-Italic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('Druk-HeavyItalic.woff2') format('woff2'),
+  url('Druk-HeavyItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('Druk-Heavy.woff2') format('woff2'),
+  url('Druk-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('Druk-MediumItalic.woff2') format('woff2'),
+  url('Druk-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('Druk-Medium.woff2') format('woff2'),
+  url('Druk-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk XXCondensed Cyr Super';
+  src: url('DrukXXCondensedCyrSuper.woff2') format('woff2'),
+  url('DrukXXCondensedCyrSuper.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Super';
+  src: url('Druk-Super.woff2') format('woff2'),
+  url('Druk-Super.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk XXCondensed';
+  src: url('DrukXXCondensed-Super.woff2') format('woff2'),
+  url('DrukXXCondensed-Super.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text';
+  src: url('DrukText-BoldItalic.woff2') format('woff2'),
+  url('DrukText-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Super';
+  src: url('Druk-SuperItalic.woff2') format('woff2'),
+  url('Druk-SuperItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text';
+  src: url('DrukText-Bold.woff2') format('woff2'),
+  url('DrukText-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk XXCondensed';
+  src: url('DrukXXCond-SuperItalic.woff2') format('woff2'),
+  url('DrukXXCond-SuperItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text Wide';
+  src: url('DrukTextWide-Bold.woff2') format('woff2'),
+  url('DrukTextWide-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text';
+  src: url('DrukText-Medium.woff2') format('woff2'),
+  url('DrukText-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text';
+  src: url('DrukText-HeavyItalic.woff2') format('woff2'),
+  url('DrukText-HeavyItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text';
+  src: url('DrukText-MediumItalic.woff2') format('woff2'),
+  url('DrukText-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text Wide';
+  src: url('DrukTextWide-BoldItalic.woff2') format('woff2'),
+  url('DrukTextWide-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text';
+  src: url('DrukText-Heavy.woff2') format('woff2'),
+  url('DrukText-Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text';
+  src: url('DrukText-Super.woff2') format('woff2'),
+  url('DrukText-Super.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text';
+  src: url('DrukText-SuperItalic.woff2') format('woff2'),
+  url('DrukText-SuperItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text Wide';
+  src: url('DrukTextWide-Heavy.woff2') format('woff2'),
+  url('DrukTextWide-Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text Wide';
+  src: url('DrukTextWide-HeavyItalic.woff2') format('woff2'),
+  url('DrukTextWide-HeavyItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text Wide';
+  src: url('DrukTextWide-Super.woff2') format('woff2'),
+  url('DrukTextWide-Super.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text Wide';
+  src: url('DrukTextWide-Medium.woff2') format('woff2'),
+  url('DrukTextWide-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text Wide';
+  src: url('DrukTextWide-MediumItalic.woff2') format('woff2'),
+  url('DrukTextWide-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide';
+  src: url('Druk-WideHeavyItalic.woff2') format('woff2'),
+  url('Druk-WideHeavyItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide';
+  src: url('Druk-WideMediumItalic.woff2') format('woff2'),
+  url('Druk-WideMediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Text Wide';
+  src: url('DrukTextWide-SuperItalic.woff2') format('woff2'),
+  url('DrukTextWide-SuperItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide Super';
+  src: url('DrukWide-SuperItalic.woff2') format('woff2'),
+  url('DrukWide-SuperItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide Super';
+  src: url('Druk-WideSuper.woff2') format('woff2'),
+  url('Druk-WideSuper.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide';
+  src: url('DrukWide-Bold.woff2') format('woff2'),
+  url('DrukWide-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide';
+  src: url('DrukWide-BoldItalic.woff2') format('woff2'),
+  url('DrukWide-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide';
+  src: url('Druk-WideMedium.woff2') format('woff2'),
+  url('Druk-WideMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk Wide';
+  src: url('DrukWide-Heavy.woff2') format('woff2'),
+  url('DrukWide-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+

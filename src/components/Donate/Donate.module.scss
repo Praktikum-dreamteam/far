@@ -1,5 +1,8 @@
 @import "/styles/common.scss";
 
+$cell-top: 5px;
+$cell-right: 9px;
+
 .donate {
   background: $grey-bg;
 
@@ -20,6 +23,34 @@
       color: black;
       text-shadow: none;
     }
+  }
+
+  &__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__switch {
+    width: 58px;
+    height: 32px;
+    background: $red;
+    margin: 0 auto 20px;
+  }
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -$cell-right;
+    margin-left: -$cell-right;
+    margin-top: -$cell-top;
+  }
+
+  &__cell {
+    //height: 86px;
+    background-color: red;
+    margin: $cell-top $cell-right;
+    width: calc(50% - #{$cell-right * 2});
   }
 
   &__form {
